@@ -1,4 +1,4 @@
-package com.ariscdc.coding.problems.math;
+package com.ariscdc.coding.problem.math;
 
 /**
  * @author ariscdc

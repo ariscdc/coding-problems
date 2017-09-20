@@ -1,4 +1,4 @@
-package com.ariscdc.coding.problems.strings;
+package com.ariscdc.coding.problem.string;
 
 import static java.lang.Character.toUpperCase;
 

@@ -1,4 +1,4 @@
-package com.ariscdc.coding.problems.games;
+package com.ariscdc.coding.problem.game;
 
 import java.util.HashMap;
 import java.util.Map;

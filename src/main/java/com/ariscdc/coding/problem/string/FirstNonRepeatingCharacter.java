@@ -1,4 +1,4 @@
-package com.ariscdc.coding.problems.strings;
+package com.ariscdc.coding.problem.string;
 
 import java.util.HashSet;
 import java.util.LinkedHashSet;
