@@ -2,11 +2,14 @@ package com.ariscdc.coding.ds.list;
 
 /**
  * @author ariscdc
+ * Aris Dela Cruz
+ * https://github.com/ariscdc
+ *
+ * <IN_PROGRESS>
  *
  * 20160306 1010-1015 (5 mins.)
  */
 public class DoublyLinkedList {
-
 
     private static class Node<T> {
 

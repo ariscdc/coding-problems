@@ -2,14 +2,16 @@ package com.ariscdc.coding.ds.tree;
 
 /**
  * @author ariscdc
+ * Aris Dela Cruz
+ * https://github.com/ariscdc
  *
  * Time Complexity for Insertion and Lookup:
  *
  * Actual complexity depends on the shape of the tree.
- * O(log N) - In the average case for a somewhat balanced tree.
- * O(N) - If tree is skewed (with all left or right children only).
+ * O(log n) - In the average case for a somewhat balanced tree.
+ * O(n) - If tree is skewed (with all left or right children only).
  *
- * For both operations, the tree to traverse is halved at every step making it log N complexity.
+ * For both operations, the tree to traverse is halved at every step making it "log n" complexity.
  *
  * 20160216 1710-1725 (15 mins.) - insert()
  * 20160216 1735-1805 (30 mins.) - get()

@@ -2,6 +2,8 @@ package com.ariscdc.coding.ds.list;
 
 /**
  * @author ariscdc
+ * Aris Dela Cruz
+ * https://github.com/ariscdc
  *
  * Singly Linked List implementation without using Sentinels.
  *

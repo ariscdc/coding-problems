@@ -5,6 +5,8 @@ import java.util.List;
 
 /**
  * @author ariscdc
+ * Aris Dela Cruz
+ * https://github.com/ariscdc
  *
  * 20160216 2330-2350 (20 mins.)
  */

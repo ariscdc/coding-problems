@@ -2,6 +2,8 @@ package com.ariscdc.coding.ds.stack;
 
 /**
  * @author ariscdc
+ * Aris Dela Cruz
+ * https://github.com/ariscdc
  *
  * 20160306 1325-1330 (5 mins.)
  */

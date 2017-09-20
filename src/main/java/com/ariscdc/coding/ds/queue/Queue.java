@@ -2,6 +2,8 @@ package com.ariscdc.coding.ds.queue;
 
 /**
  * @author ariscdc
+ * Aris Dela Cruz
+ * https://github.com/ariscdc
  *
  * 20160306 1400-1405 (5 mins.)
  */

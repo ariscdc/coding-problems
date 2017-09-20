@@ -4,14 +4,16 @@ import java.lang.reflect.Array;
 
 /**
  * @author ariscdc
+ * Aris Dela Cruz
+ * https://github.com/ariscdc
  *
- * Heapify - Place a single element in the wrong position and then
- * find the right position for the element. Supported by two methods - siftUp() and siftDown().
+ * Heapify - Place a single element in the wrong position and then find the right position for the element.
+ * Supported by two methods - siftUp() and siftDown().
  *
  * Time Complexity:
- * - Insert - O(log N)
+ * - Insert - O(log n)
  * - Access to Top - O(1)
- * - Remove - O(log N)
+ * - Remove - O(log n)
  *
  * 20160225 1030-1035 (5 mins.)
  * 20160225 1040-1045 (5 mins.)
@@ -166,6 +168,8 @@ public class BinaryHeap<T extends Comparable> {
         for (int i = 0; i < 992; i++) {
             heap.insert((int) Math.round(Math.random() * 1000));
         }
+
+        System.out.println("heap.size = " + heap.size());
         while (!heap.isEmpty()) {
             System.out.println(heap.removeTopPriority());
         }

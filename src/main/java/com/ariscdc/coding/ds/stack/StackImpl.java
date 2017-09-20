@@ -4,9 +4,11 @@ import com.ariscdc.coding.ds.list.SinglyLinkedList;
 
 /**
  * @author ariscdc
+ * Aris Dela Cruz
+ * https://github.com/ariscdc
  *
  * Time Complexity: O(1) for all methods.
- * Space Complexity: O(N)
+ * Space Complexity: O(n)
  *
  * 20160306 0905-0910 (5 mins.)
  * 20160306 1330-1400 (30 mins.)

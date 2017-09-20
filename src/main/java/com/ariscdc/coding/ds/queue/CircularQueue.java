@@ -4,9 +4,11 @@ import java.lang.reflect.Array;
 
 /**
  * @author ariscdc
+ * Aris Dela Cruz
+ * https://github.com/ariscdc
  *
  * Time Complexity: O(1) for all methods
- * Space Complexity: O(N)
+ * Space Complexity: O(n)
  *
  * 20160306 1410-1430 (20 mins.)
  * 20160306 1520-1540 (20 mins.)

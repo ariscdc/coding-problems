@@ -7,8 +7,10 @@ import com.ariscdc.coding.ds.stack.StackImpl;
 
 /**
  * @author ariscdc
+ * Aris Dela Cruz
+ * https://github.com/ariscdc
  *
- * Time Complexity: O(N), where N is the number of operations performed.
+ * Time Complexity: O(n), where n is the number of operations performed.
  * Enqueues and dequeues are O(1), if only one of these operations is invoked.
  *
  * 20160313 1655-1720 (25 mins.)

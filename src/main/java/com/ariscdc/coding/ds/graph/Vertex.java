@@ -8,6 +8,8 @@ import java.util.Set;
 
 /**
  * @author ariscdc
+ * Aris Dela Cruz
+ * https://github.com/ariscdc
  *
  * 20160216 2240-2245 (5 mins.)
  */
