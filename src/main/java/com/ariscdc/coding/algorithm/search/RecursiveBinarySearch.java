@@ -2,6 +2,8 @@ package com.ariscdc.coding.algorithm.search;
 
 /**
  * @author ariscdc
+ * Aris Dela Cruz
+ * https://github.com/ariscdc
  *
  * Choose an element at the mid-point of a Sorted List.
  * Check whether it's less than or greater than the element.
