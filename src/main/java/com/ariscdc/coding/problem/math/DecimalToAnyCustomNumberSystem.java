@@ -5,7 +5,7 @@ package com.ariscdc.coding.problem.math;
  *
  * 20160906 2043-2107 (24 mins.)
  */
-public class CustomNumberSystemConverter {
+public class DecimalToAnyCustomNumberSystem {
 
     private static final String[] baseCustom =
             { "A", "T", "t", "l", "a", "S", "s", "i", "@", "n" };
