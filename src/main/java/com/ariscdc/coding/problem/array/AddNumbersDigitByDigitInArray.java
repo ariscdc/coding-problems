@@ -5,6 +5,8 @@ import java.util.List;
 
 /**
  * @author ariscdc
+ * Aris Dela Cruz
+ * https://github.com/ariscdc
  *
  * Given two numbers represented as an array, compute for the sum by computing
  * digit by digit and not converting it as a number data type as a whole.

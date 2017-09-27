@@ -2,6 +2,8 @@ package com.ariscdc.coding.problem.array;
 
 /**
  * @author ariscdc
+ * Aris Dela Cruz
+ * https://github.com/ariscdc
  *
  * Given NxN cells that can be either alive and dead, determine the next generation
  * state based on the following conditions:

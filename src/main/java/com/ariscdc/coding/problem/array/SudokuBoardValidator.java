@@ -7,6 +7,11 @@ import java.util.Set;
 
 /**
  * @author ariscdc
+ * Aris Dela Cruz
+ * https://github.com/ariscdc
+ *
+ * Given a 9x9 Sudoku Board, determine if all entries are valid.
+ * There should be no same number per row, per column, and per 3x3 block.
  *
  * 20160228 1940-2040 (60 mins.)
  */
