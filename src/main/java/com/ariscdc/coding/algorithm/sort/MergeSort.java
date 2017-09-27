@@ -6,6 +6,8 @@ import java.util.List;
 
 /**
  * @author ariscdc
+ * Aris Dela Cruz
+ * https://github.com/ariscdc
  *
  * 5. Merge Sort
  *
@@ -16,8 +18,9 @@ import java.util.List;
  * Classic recursion based algorithm, divide till the problem is so small as to be trivial.
  * Solve for the trivial case and then build up the complete solution as the recursion unwinds.
  *
- * Time Complexity: O(N log N)
- * Space Complexity: O(N)
+ * Time Complexity: O(n log n)
+ * Space Complexity: O(n)
+ *
  * Stable, entities which are equal are maintained in original order.
  * Not Adaptive, goes into recursive call and cannot see the big picture if the list is already sorted.
  *
@@ -81,11 +84,16 @@ public class MergeSort {
     }
 
     public static void main(String[] args) {
-
-        List<Integer> elements = Arrays.asList( 1, 3, 2, 1, 9, 7, 0, 5, 3, 8, 6, 4, 3 );
-//        List<Integer> elements = Arrays.asList( 4, 3, 2, 1 );
-
-        print(elements, 0);
-        sort(elements, 1);
+        {
+            List<Integer> elements = Arrays.asList( 1, 3, 2, 1, 9, 7, 0, 5, 3, 8, 6, 4, 3 );
+            print(elements, 0);
+            sort(elements, 1);
+        }
+        System.out.println();
+        {
+            List<Integer> elements = Arrays.asList( 4, 3, 2, 1 );
+            print(elements, 0);
+            sort(elements, 1);
+        }
     }
 }

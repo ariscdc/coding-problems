@@ -2,6 +2,8 @@ package com.ariscdc.coding.algorithm.sort;
 
 /**
  * @author ariscdc
+ * Aris Dela Cruz
+ * https://github.com/ariscdc
  *
  * 2. Bubble Sort
  *
@@ -13,10 +15,11 @@ package com.ariscdc.coding.algorithm.sort;
  * In the worst case (if the list is originally sorted in descending order), N elements are checked
  * and swapped for every selected element to get to the right position.
  *
- * Time Complexity: O(N^2)
+ * Time Complexity: O(n^2)
  * Space Complexity: O(1)
+ *
  * Stable sort, entities which are equal are maintained in original order.
- * O(N^2) comparisons and O(N^2) swaps
+ * O(n^2) comparisons and O(n^2) swaps.
  * Adaptive, able to know and break if list is already sorted.
  *
  * 20160207 1715-1740 (25 mins.)

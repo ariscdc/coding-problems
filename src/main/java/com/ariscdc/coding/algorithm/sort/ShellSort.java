@@ -2,6 +2,8 @@ package com.ariscdc.coding.algorithm.sort;
 
 /**
  * @author ariscdc
+ * Aris Dela Cruz
+ * https://github.com/ariscdc
  *
  * 4. Shell Sort
  *
@@ -13,11 +15,12 @@ package com.ariscdc.coding.algorithm.sort;
  * Better that Insertion Sort as the final iteration with increment = 1 has to work with a
  * nearly sorted list.
  *
- * Time Complexity: Somewhere between O(N) and O(N^2)
- *                  For increments 2^K - 1, for K = 1,2,3 ..., complexity is O(N^3/2)
+ * Time Complexity: Somewhere between O(n) and O(n^2)
+ *                  For increments 2^k - 1, for k = 1,2,3 ..., complexity is O(n^3/2)
  * Space Complexity: O(1)
+ *
  * Stable sort, entities which are equal are maintained in original order.
- * O(N^2) comparisons and O(N^2) swaps
+ * O(n^2) comparisons and O(n^2) swaps
  * Adaptive, able to know and break if list is already sorted.
  *
  * 20160208 1450-1500 (10 mins.)
@@ -31,7 +34,7 @@ public class ShellSort {
 
         if (elements == null || elements.length < 2) return elements;
 
-        System.out.println("\nShell Sort:");
+        System.out.println("Shell Sort:");
 
         int swaps = 1;
         for (int i = 0; i < increment; i++) {
@@ -47,7 +50,7 @@ public class ShellSort {
             }
         }
 
-        System.out.println("\nInsertion Sort:");
+        System.out.println("Insertion Sort:");
         insertionSort(elements, swaps);
 
         return elements;
@@ -89,9 +92,21 @@ public class ShellSort {
 
     public static void main(String[] args) {
 
-        int[] elements = { 1, 3, 2, 1, 9, 7, 0, 5, 3, 8, 6, 4, 3 };
-//        int[] elements = { 4, 3, 2, 1 };
-        print(elements, 0);
-        sort(elements, 2);
+        int[][] testCases = {
+                { 1, 1 },
+                { 3, 3, 3, 3, 3 },
+                { 1, 2, 3, 4, 5 },
+                { 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 },
+                { 8, 2 },
+                { 3, 6, 4, 2, 9, 8 },
+                { 1, 3, 2, 4, 9, 7, 8, 5, 6, 10 },
+                { 1, 3, 2, 1, 9, 7, 0, 5, 3, 8, 6, 4, 3 }
+        };
+        for (int[] testCase : testCases) {
+            System.out.println("------------------------------");
+            print(testCase, 0);
+            sort(testCase, 2);
+            print(testCase, 999);
+        }
     }
 }

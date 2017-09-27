@@ -2,6 +2,8 @@ package com.ariscdc.coding.algorithm.sort;
 
 /**
  * @author ariscdc
+ * Aris Dela Cruz
+ * https://github.com/ariscdc
  *
  * 3. Insertion Sort
  *
@@ -12,10 +14,11 @@ package com.ariscdc.coding.algorithm.sort;
  * It has very low overhead and is traditionally the sort of choice when used with
  * faster algorithms which follow the divide and conquer approach.
  *
- * Time Complexity: O(N^2)
+ * Time Complexity: O(n^2)
  * Space Complexity: O(1)
+ *
  * Stable sort, entities which are equal are maintained in original order.
- * O(N^2) comparisons and O(N^2) swaps
+ * O(n^2) comparisons and O(n^2) swaps
  * Adaptive, able to know and break if list is already sorted.
  *
  * 20160207 1920-1955 (35 mins.)
@@ -60,10 +63,16 @@ public class InsertionSort {
     }
 
     public static void main(String[] args) {
-
-        int[] elements = { 1, 3, 2, 1, 9, 7, 0, 5, 3, 8, 6, 4, 3 };
-//        int[] elements = { 5, 4, 3, 2, 1 };
-        print(elements, 0);
-        sort(elements);
+        {
+            int[] elements = { 1, 3, 2, 1, 9, 7, 0, 5, 3, 8, 6, 4, 3 };
+            print(elements, 0);
+            sort(elements);
+        }
+        System.out.println();
+        {
+            int[] elements = { 5, 4, 3, 2, 1 };
+            print(elements, 0);
+            sort(elements);
+        }
     }
 }

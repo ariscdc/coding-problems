@@ -2,16 +2,19 @@ package com.ariscdc.coding.algorithm.sort;
 
 /**
  * @author ariscdc
+ * Aris Dela Cruz
+ * https://github.com/ariscdc
  *
  * 1. Selection Sort
  *
  * Selects one element at a time, compares it to all other elements in the list.
  * The correct position for that selected element is found before moving on to the next element.
  *
- * Time Complexity: O(N^2)
+ * Time Complexity: O(n^2)
  * Space Complexity: O(1)
+ *
  * Not a Stable sort, entities which are equal might be re-arranged.
- * O(N^2) comparisons and O(N) swaps
+ * O(n^2) comparisons and O(n) swaps
  * Not Adaptive, not a way to know if list is nearly-sorted.
  *
  * 20160207 1630-1635 (5 mins.)
