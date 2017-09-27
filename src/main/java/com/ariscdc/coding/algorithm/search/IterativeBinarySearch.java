@@ -11,7 +11,7 @@ package com.ariscdc.coding.algorithm.search;
  * By halving the search area at every step, Binary Search works much faster
  * than Linear Search.
  *
- * Time Complexity: O(log N)
+ * Time Complexity: O(log n)
  *
  * 20160210 1535-1550 (15 mins.)
  */
