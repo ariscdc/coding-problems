@@ -2,6 +2,8 @@ package com.ariscdc.coding.algorithm.string;
 
 /**
  * @author ariscdc
+ * Aris Dela Cruz
+ * https://github.com/ariscdc
  *
  * 20160228 1350-1355 (5 mins.)
  */

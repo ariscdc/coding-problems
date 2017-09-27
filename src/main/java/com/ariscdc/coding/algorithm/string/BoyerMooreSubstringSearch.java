@@ -5,6 +5,8 @@ import java.util.Map;
 
 /**
  * @author ariscdc
+ * Aris Dela Cruz
+ * https://github.com/ariscdc
  *
  * 20160228 1625-1710 (45 mins.)
  */
@@ -67,19 +69,18 @@ public class BoyerMooreSubstringSearch extends SubstringSearchAlgorithm {
     public static void main(String[] args) {
 
         String source = "This is just a text";
-        String sourceUppered = "THIS IS JUST A TEXT";
-        String pattern = "This";
+        String pattern = "just";
         String patternUppered = "JUST";
         String notExistingPattern = "Hello";
 
         SubstringSearchAlgorithm algorithm = new BoyerMooreSubstringSearch();
 
         System.out.println(algorithm.search(source, pattern));
-        System.out.println(algorithm.search(source, notExistingPattern));
         System.out.println(algorithm.search(source, patternUppered));
+        System.out.println(algorithm.search(source, notExistingPattern));
         System.out.println();
 
-        System.out.println(algorithm.searchIgnoreCase(sourceUppered, pattern));
+        System.out.println(algorithm.searchIgnoreCase(source, pattern));
         System.out.println(algorithm.searchIgnoreCase(source, patternUppered));
         System.out.println(algorithm.searchIgnoreCase(source, notExistingPattern));
     }

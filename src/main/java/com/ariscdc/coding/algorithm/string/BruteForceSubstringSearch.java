@@ -2,13 +2,14 @@ package com.ariscdc.coding.algorithm.string;
 
 /**
  * @author ariscdc
+ * Aris Dela Cruz
+ * https://github.com/ariscdc
  *
  * Also known as NaiveApproachSubstringSearch.
- * Keep iterating theo
  *
- * Time Complexity: O(N x M),
- * where N is the length of source string,
- * and M is the length of the pattern.
+ * Time Complexity: O(n x m),
+ * where n is the length of source string,
+ * and m is the length of the pattern.
  *
  * 20150228 1355-1410 (15 mins.)
  */
@@ -32,7 +33,6 @@ public class BruteForceSubstringSearch extends SubstringSearchAlgorithm {
     public static void main(String[] args) {
 
         String source = "This is just a text";
-        String sourceUppered = "THIS IS JUST A TEXT";
         String pattern = "just";
         String patternUppered = "JUST";
         String notExistingPattern = "Hello";
@@ -40,11 +40,11 @@ public class BruteForceSubstringSearch extends SubstringSearchAlgorithm {
         SubstringSearchAlgorithm algorithm = new BruteForceSubstringSearch();
 
         System.out.println(algorithm.search(source, pattern));
-        System.out.println(algorithm.search(source, notExistingPattern));
         System.out.println(algorithm.search(source, patternUppered));
+        System.out.println(algorithm.search(source, notExistingPattern));
         System.out.println();
 
-        System.out.println(algorithm.searchIgnoreCase(sourceUppered, pattern));
+        System.out.println(algorithm.searchIgnoreCase(source, pattern));
         System.out.println(algorithm.searchIgnoreCase(source, patternUppered));
         System.out.println(algorithm.searchIgnoreCase(source, notExistingPattern));
     }
