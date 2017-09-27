@@ -7,6 +7,8 @@ import java.util.Queue;
 
 /**
  * @author ariscdc
+ * Aris Dela Cruz
+ * https://github.com/ariscdc
  *
  * 20160216 1505-1515 (10 mins.)
  */

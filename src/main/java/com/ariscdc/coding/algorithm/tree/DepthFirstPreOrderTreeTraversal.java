@@ -4,8 +4,10 @@ import com.ariscdc.coding.ds.tree.Node;
 
 /**
  * @author ariscdc
+ * Aris Dela Cruz
+ * https://github.com/ariscdc
  *
- * 20160216 1620-1625 (5)
+ * 20160216 1620-1625 (5 mins.)
  */
 public class DepthFirstPreOrderTreeTraversal {
 
