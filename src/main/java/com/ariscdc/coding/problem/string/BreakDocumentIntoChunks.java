@@ -16,6 +16,7 @@ import java.util.List;
  * 20160131 1110-1200 (50 mins.)
  * 20160131 1210-1220 (10 mins.) (chunkify1())
  * 20160131 1230-1245 (15 mins.) (chunkify2())
+ *                    (75 mins.)
  */
 public class BreakDocumentIntoChunks {
 

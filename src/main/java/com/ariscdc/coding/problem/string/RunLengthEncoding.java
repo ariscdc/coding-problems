@@ -14,6 +14,7 @@ package com.ariscdc.coding.problem.string;
  *
  * 20160226 1900-1920 (20 mins.)
  * 20160226 1925-1940 (15 mins.)
+ *                    (35 mins.)
  */
 public class RunLengthEncoding {
 
