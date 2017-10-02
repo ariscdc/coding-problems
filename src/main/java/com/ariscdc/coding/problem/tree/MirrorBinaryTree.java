@@ -7,7 +7,7 @@ import com.ariscdc.coding.ds.tree.Node;
  * Aris Dela Cruz
  * https://github.com/ariscdc
  *
- * 20160216 2035-2105 (30)
+ * 20160216 2035-2105 (30 mins.)
  */
 public class MirrorBinaryTree {
 
