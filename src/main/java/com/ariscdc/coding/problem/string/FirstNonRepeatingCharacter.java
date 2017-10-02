@@ -6,6 +6,10 @@ import java.util.Set;
 
 /**
  * @author ariscdc
+ * Aris Dela Cruz
+ * https://github.com/ariscdc
+ *
+ * Given a string, return the first non-repeated character.
  *
  * 20170919 1900-1945 (45 mins.)
  *                    (~30 mins. solution design)

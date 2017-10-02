@@ -2,6 +2,8 @@ package com.ariscdc.coding.problem.math;
 
 /**
  * @author ariscdc
+ * Aris Dela Cruz
+ * https://github.com/ariscdc
  *
  * 20170906 2030-2041 (11 mins.)
  */

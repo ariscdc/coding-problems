@@ -2,6 +2,8 @@ package com.ariscdc.coding.problem.string;
 
 /**
  * @author ariscdc
+ * Aris Dela Cruz
+ * https://github.com/ariscdc
  *
  * 20170909 2025-2044 (19 mins.)
  * 20170910 0840-0854 (14 mins.)

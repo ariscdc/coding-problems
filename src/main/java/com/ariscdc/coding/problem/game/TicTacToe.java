@@ -8,6 +8,8 @@ import java.util.regex.Pattern;
 
 /**
  * @author ariscdc
+ * Aris Dela Cruz
+ * https://github.com/ariscdc
  *
  * 20151001 17:20-18:00 (40 mins.)
  * 20151002 06:50-08:00 (70 mins.)

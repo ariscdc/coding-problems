@@ -4,6 +4,8 @@ import static java.lang.Character.toUpperCase;
 
 /**
  * @author ariscdc
+ * Aris Dela Cruz
+ * https://github.com/ariscdc
  *
  * 20170911 1744-1758 (14 mins.)
  * Time: O(n)

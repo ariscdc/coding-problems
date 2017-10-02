@@ -2,8 +2,10 @@ package com.ariscdc.coding.problem.math;
 
 /**
  * @author ariscdc
+ * Aris Dela Cruz
+ * https://github.com/ariscdc
  *
- * 20160906 2043-2107 (24 mins.)
+ * 20170906 2043-2107 (24 mins.)
  */
 public class DecimalToAnyCustomNumberSystem {
 

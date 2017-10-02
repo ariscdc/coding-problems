@@ -14,7 +14,7 @@ package com.ariscdc.coding.problem.math;
  *     4. increment(ABB) = ABC
  *
  * There is another solution:
- *     <to be posted>
+ *     - Without using decimal conversion - <to be posted>
  *
  * 20160229 0020-0100 (40 mins.)
  */
