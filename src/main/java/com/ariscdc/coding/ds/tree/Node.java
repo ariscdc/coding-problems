@@ -39,6 +39,6 @@ public class Node<T> {
 
     @Override
     public String toString() {
-        return "Vertex{" + "data=" + data + "}";
+        return "Node{" + "data=" + data + "}";
     }
 }
