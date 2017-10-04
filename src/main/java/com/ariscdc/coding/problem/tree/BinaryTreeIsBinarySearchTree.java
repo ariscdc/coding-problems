@@ -7,5 +7,6 @@ package com.ariscdc.coding.problem.tree;
  */
 public class BinaryTreeIsBinarySearchTree {
 
-
+    public static void main(String[] args) {
+    }
 }
