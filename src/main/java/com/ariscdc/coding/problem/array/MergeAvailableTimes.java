@@ -86,7 +86,7 @@ public class MergeAvailableTimes {
 
     private List<AvailableTime> mergeAvailableTimes(List<AvailableTime> individualTimes) {
 
-        if (individualTimes.isEmpty()) {
+        if (individualTimes == null || individualTimes.isEmpty()) {
             return new ArrayList<>();
         }
         if (individualTimes.size() == 1) {
